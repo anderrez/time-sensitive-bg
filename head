@@ -1,0 +1,18 @@
+<?php 
+$time = date("H"); 
+
+if( $time >= 06 && $time < 10 )
+$img_name = 'slow-motion-water-bubbles-galore_w1feyxpes__D.mp4';
+if( $time >= 10 && $time < 17 )
+$img_name = 'macro-rose-blooming_wkj3erzwh__D.mp4';
+if( $time >= 17 && $time < 19 )
+$img_name = 'time-lapse-sunrise-over-ocean_wjbn8bweh__D.mp4';
+if( $time >= 19 && $time < 6 )
+$img_name = 'sunset-at-sea-of-galilee_-1rpfj_lb__D.mp4';
+
+
+?>
+
+<style>
+.qw-parallax-background-css{background-image:url("http://radiotulum.com/vice/wp-content/uploads/2016/11/<?php echo $img_name;?>");}
+</style>
